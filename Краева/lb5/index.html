@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №5 — BOM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <h1>Лабораторная работа №5 — Объектная модель браузера (BOM)</h1>
+
+    <div class="buttons-container">
+        <button onclick="showBrowserInfo()">Информация о браузере</button>
+        <button onclick="showOS()">Операционная система</button>
+        <button onclick="showScreenSize()">Ширина и высота экрана</button>
+        <button onclick="showAvailScreenSize()">Ширина и высота (без служебных)</button>
+        <button onclick="showColorDepth()">Глубина цвета</button>
+        <button onclick="showOnlineStatus()">Подключение к интернету</button>
+        <button onclick="showLanguage()">Предпочтительный язык</button>
+        <button onclick="showURL()">URL текущего документа</button>
+        <button onclick="showProtocol()">Протокол</button>
+        <button onclick="showHost()">Хост</button>
+    </div>
+
+    <div id="output">
+        <p>Нажмите на кнопку для получения информации</p>
+    </div>
+
+</body>
+</html>
